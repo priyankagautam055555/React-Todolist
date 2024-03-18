@@ -1,0 +1,44 @@
+body 
+{
+  margin: 0;
+  font-family: cursive;
+    background-color: rgb(160, 132, 187);
+}
+
+.todocontain{width: 28%;
+  margin: 0 auto;
+  /* height: auto; */
+  border-radius: 15px;
+  background-color: #fff;
+  max-height: 100%;
+  padding-bottom: 20px; min-height:500px;}
+.todocontain h1{
+   background-color: #123576; color: rgb(247, 247, 247); font-size:22px; 
+  font-size:42px; width: 100%; text-align: center;}
+  .todoinput{width:100%; display: flex; flex-direction: row; margin-top:10px;}
+  input{border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 64%;
+    margin-left: 2em;
+    font-size: 22px;
+    font-family: cursive;}
+        input:focus-visible{border:2px solid red;}
+   .todorightborder{border: 2px solid #fff;
+    width: 12%;
+    float: right;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #123576;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;}
+  .todorightborder button{background: none;
+    border: none;
+    color: #fff;
+    font-size: 39px;}
+  .todorightborder.crBTN{height: 37px;
+    width: 11%;transform: rotate(135deg); color:rgb(255, 255, 255); border:1px solid red;}
+    .todorightborder.crBTN:hover{background-color: red; color:#fff;}
+   .todoinput >div {line-height: 32px;
+      margin-left: 14px;}
